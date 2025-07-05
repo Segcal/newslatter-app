@@ -33,9 +33,9 @@ const Navbar = () => {
   return (
     <>
       <nav className="flex items-center justify-between py-3 xl:px-96 md:px-24 px-8 text-white">
-        <Link href={"/"} className="bg-[#4a2bd3] p-3 rounded-lg relative">
+        <Link href={"/"} className="bg-[#4a2bd3] md:p-3 p-2 rounded-lg relative">
           <span>
-            <GiEnvelope size={24} />
+            <GiEnvelope className="md:text-xl text-base" />
           </span>
           <span className="absolute inset-0 rounded-md w-3 h-3 animate-pulse bg-[#1b64e3]"></span>
           <span className="absolute bottom-[-0] right-[-0] animate-pulse rounded-md w-3 h-3 bg-[#e31be0]">
@@ -67,9 +67,9 @@ const Navbar = () => {
 
         <button
           onClick={() => setNavOptions(true)}
-          className="bg-[#1b47e3]/30 px-4 cursor-pointer md:hidden block capitalize py-2 text-xl rounded"
+          className="bg-[#1b47e3]/30 px-2.5 cursor-pointer md:hidden block capitalize py-2  rounded"
         >
-          <HiBars3CenterLeft className="text-2xl" />
+          <HiBars3CenterLeft className="text-sm" />
         </button>
       </nav>
 
