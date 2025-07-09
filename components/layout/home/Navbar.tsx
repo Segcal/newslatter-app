@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center justify-between py-3 xl:px-96 md:px-24 px-8 text-white">
+      <nav className="flex shadow-lg bg-blue-950/30  mb-12 items-center justify-between py-3 xl:px-96 md:px-24 px-8 text-white">
         <Link href={"/"} className="bg-[#4a2bd3] md:p-3 p-2 rounded-lg relative">
           <span>
             <GiEnvelope className="md:text-xl text-base" />
